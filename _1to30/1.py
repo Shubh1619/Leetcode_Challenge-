@@ -12,9 +12,6 @@ def twoSum(nums, target):
         num_map[num] = i
     return []
 
-
-nums = [2, 7, 11, 15]
-target = 9
 print(twoSum(nums, target))  
 
 
