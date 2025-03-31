@@ -18,3 +18,9 @@ target = 9
 print(twoSum(nums, target))  
 
 
+
+# The enumerate() function adds a counter to an iterable and returns it in the form of an enumerate object.
+# This enumerate object can then be used directly in for loops or converted into a list of tuples using the list() method.
+# The enumerate() function is useful when you need a counter with the values in the iterable.
+# It allows you to loop over something and have an automatic counter.
+
