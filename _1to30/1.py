@@ -6,9 +6,9 @@ target = 9
 def twoSum(nums, target):
     num_map = {}  
     for i, num in enumerate(nums):
-        complement = target - num
-        if complement in num_map:
-            return [num_map[complement], i]
+        res = target - num
+        if res in num_map:
+            return [num_map[res], i]
         num_map[num] = i
     return []
 
